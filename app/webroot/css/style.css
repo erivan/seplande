@@ -1,0 +1,111 @@
+body {
+  padding-top: 70px;
+  
+}
+/* cor da nav bar*/
+.navbar-default {
+	background-image: -webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);
+	background-image: -o-linear-gradient(top,#fff 0,#f8f8f8 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f8f8f8));
+	background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%);
+}
+.navbar-default {
+	background-image:none;	
+	background-color: #428bca;
+}
+.navbar{
+	border:none;
+}
+
+/*cor das letras da nav bar*/
+.navbar-default .navbar-brand {
+color: #777;
+}
+.navbar-default .navbar-brand {
+color: #F5F5F5;
+}
+
+/*cores da do link da nav header dentro das li*/
+.navbar-default .navbar-nav>li>a {
+color: #777;
+}
+.navbar-default .navbar-nav>li>a {
+color: #F5F5F5;
+}
+
+/*cor de fundo do botão que aparece qnd responsivo*/
+.navbar-toggle {
+	background-color: none;
+}
+.navbar-toggle {
+	background-color: #F5F5F5;
+}
+
+/* cor dos icones do botão acima*/
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #657DDB;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #8B8682;	
+}
+/*hover color do nome na nav bar*/
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+color: #110F0F;
+background-color: transparent;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+color: #363636;
+background-color: transparent;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+color: #2E1515;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+color: #F5F5F5;
+}
+.navbar-nav>li>.dropdown-menu {
+background-color: #1E90FF;
+}
+a {
+color: #fff;
+text-decoration: none;
+}
+
+.body-wiki {padding-left: 10px;}
+.nome-in{
+	font-size: 20px;
+	color: #fff;
+}
+.image-ban{
+	padding-top: 10px;
+	padding-right: 30px;
+}
+
+.maxCanvas{
+	max-height: 600px;	
+}
+pre{
+border:none;	
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+background-color: #fff;
+
+}
+
+.bottom {
+
+    background-color: #428bca;
+}
+.bottom .container {
+    background-color: #428bca;
+    min-height: 150px;
+}
+.bottom .container h3 {
+    color: #fff;
+}
+.bottom .container p {
+    color: #666;
+}
